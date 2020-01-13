@@ -3,9 +3,5 @@ server:
   port: 8080
   servlet:
     context-path: /customer-api
-  
-spring:
-  datasource:
-    url: jdbc:h2:tcp://localhost:9092/mem:testdb
-
+ 
  
