@@ -4,8 +4,12 @@ server:
   servlet:
     context-path: /sales-order-api
     
-spring.main.allow-bean-definition-overriding: true
+spring:
+  main:
+    allow-bean-definition-overriding: true
 
 
-feign.hystrix.enabled: true
+feign:
+  hystrix:
+    enabled: true
     
